@@ -7,7 +7,7 @@ module.exports = {
   // сборки серверной части и уменьшает размер итогового файла сборки.
   externals: [nodeExternals()],
   entry: {
-    'index': './src/index.js',
+    index: './src/index.js',
   },
   output: {
     path: path.join(__dirname, 'dist'),
